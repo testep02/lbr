@@ -1,0 +1,7 @@
+# First, Ignore everything
+
+*
+
+# But don't ignore my library file
+!.gitignore
+!common.lbr
