@@ -3266,6 +3266,50 @@ Vias have not been added directly to the footprint to allow the designer to use 
 <text x="-3.85" y="-3.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-2.15" y="-0.9" size="0.4064" layer="25">TLI4970-D050T4</text>
 </package>
+<package name="VQFN-HR">
+<smd name="11" x="0.775" y="0.5" dx="1.45" dy="0.35" layer="1" stop="no"/>
+<smd name="9" x="0.775" y="-0.5" dx="1.45" dy="0.35" layer="1" stop="no"/>
+<smd name="10" x="0.6" y="0" dx="1.8" dy="0.35" layer="1" stop="no"/>
+<smd name="1" x="-1.15" y="0.75" dx="0.6" dy="0.25" layer="1" stop="no"/>
+<smd name="2" x="-1.15" y="0.25" dx="0.6" dy="0.25" layer="1" stop="no"/>
+<smd name="3" x="-1.15" y="-0.25" dx="0.6" dy="0.25" layer="1" stop="no"/>
+<smd name="4" x="-1.15" y="-0.75" dx="0.6" dy="0.25" layer="1" stop="no"/>
+<smd name="15" x="-0.725" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R90" stop="no"/>
+<smd name="14" x="-0.225" y="1.4" dx="0.6" dy="0.25" layer="1" rot="R90" stop="no"/>
+<smd name="12_13" x="0.525" y="1.4" dx="0.7" dy="0.85" layer="1" rot="R90" stop="no"/>
+<smd name="7_8" x="0.525" y="-1.4" dx="0.7" dy="0.85" layer="1" rot="R90" stop="no"/>
+<smd name="5" x="-0.725" y="-1.4" dx="0.6" dy="0.25" layer="1" rot="R90" stop="no"/>
+<smd name="6" x="-0.225" y="-1.4" dx="0.6" dy="0.25" layer="1" rot="R90" stop="no"/>
+<rectangle x1="-0.9" y1="1.05" x2="-0.55" y2="1.75" layer="29"/>
+<rectangle x1="-0.4" y1="1.05" x2="-0.05" y2="1.75" layer="29"/>
+<rectangle x1="-1.5" y1="0.575" x2="-0.8" y2="0.925" layer="29"/>
+<rectangle x1="-1.5" y1="0.075" x2="-0.8" y2="0.425" layer="29"/>
+<rectangle x1="-1.5" y1="-0.425" x2="-0.8" y2="-0.075" layer="29"/>
+<rectangle x1="-1.5" y1="-0.925" x2="-0.8" y2="-0.575" layer="29"/>
+<rectangle x1="-0.9" y1="-1.75" x2="-0.55" y2="-1.05" layer="29"/>
+<rectangle x1="-0.4" y1="-1.75" x2="-0.05" y2="-1.05" layer="29"/>
+<rectangle x1="0.15" y1="-1.7" x2="0.9" y2="-1.1" layer="29"/>
+<rectangle x1="0.1" y1="-0.625" x2="1.45" y2="-0.375" layer="29"/>
+<rectangle x1="-0.25" y1="-0.125" x2="1.45" y2="0.125" layer="29"/>
+<rectangle x1="0.1" y1="0.375" x2="1.45" y2="0.625" layer="29"/>
+<rectangle x1="0.15" y1="1.1" x2="0.9" y2="1.7" layer="29"/>
+<wire x1="-1.3" y1="1.55" x2="1.3" y2="1.55" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="-1.55" x2="1.3" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="1.55" x2="-1.3" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="1.3" y1="1.55" x2="1.3" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.55" x2="-1.3" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="1.55" x2="-1.3" y2="1.05" width="0.127" layer="21"/>
+<wire x1="1.05" y1="1.55" x2="1.3" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1.55" x2="1.3" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.05" x2="-1.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.55" x2="-1" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-0.8" x2="1.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1.55" x2="1.05" y2="-1.55" width="0.127" layer="21"/>
+<circle x="-1.8" y="0.75" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="-1.8" y="0.75" radius="0.14141875" width="0.127" layer="51"/>
+<text x="-1.3" y="2" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.3" y="-2.8" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RES">
@@ -4957,6 +5001,36 @@ power down mode to about 1 mW.</description>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-4.318" y="0.254" size="0.8128" layer="96">TLI4970-D050T4</text>
+</symbol>
+<symbol name="TPS63070">
+<description>&lt;h2&gt;TPS63070&lt;/h2&gt;
+High-efficiency, low quiescent current buck-boost converter.
+
+&lt;ul&gt;
+&lt;li&gt;Input Range: &lt;span style="color: red;"&gt;2.0V to 16V&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Output Range: &lt;span style="color: red;"&gt;2.5V to 9V&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Output Current: &lt;span style="color: red;"&gt;2.0A Buck/Boost&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="L1" x="-15.24" y="12.7" length="short" direction="pas"/>
+<pin name="VIN" x="-15.24" y="10.16" length="short" direction="pwr"/>
+<pin name="VSEL" x="-15.24" y="0" length="short" direction="pwr"/>
+<pin name="EN" x="-15.24" y="-7.62" length="short" direction="in"/>
+<pin name="PS/SYNC" x="-15.24" y="-10.16" length="short" direction="in"/>
+<pin name="VAUX" x="-15.24" y="-15.24" length="short" direction="pas"/>
+<pin name="L2" x="15.24" y="12.7" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="FB" x="15.24" y="0" length="short" direction="in" rot="R180"/>
+<pin name="FB2" x="15.24" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="PG" x="15.24" y="-10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="PGND" x="15.24" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="-20.32" size="1.778" layer="97">TPS63070</text>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7635,6 +7709,41 @@ For use in Lithium battery applications</description>
 <connect gate="G$1" pin="OCD" pad="6"/>
 <connect gate="G$1" pin="SCLK" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS63070" prefix="U" uservalue="yes">
+<description>&lt;h2&gt;TPS63070&lt;/h2&gt;
+High-efficiency, low quiescent current buck-boost converter.
+
+&lt;ul&gt;
+&lt;li&gt;Input Range: &lt;span style="color: red;"&gt;2.0V to 16V&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Output Range: &lt;span style="color: red;"&gt;2.5V to 9V&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Output Current: &lt;span style="color: red;"&gt;2.0A Buck/Boost&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS63070" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VQFN-HR">
+<connects>
+<connect gate="G$1" pin="EN" pad="14"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="FB2" pad="6"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="L1" pad="11"/>
+<connect gate="G$1" pin="L2" pad="9"/>
+<connect gate="G$1" pin="PG" pad="2"/>
+<connect gate="G$1" pin="PGND" pad="10"/>
+<connect gate="G$1" pin="PS/SYNC" pad="1"/>
+<connect gate="G$1" pin="VAUX" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="12_13"/>
+<connect gate="G$1" pin="VOUT" pad="7_8"/>
+<connect gate="G$1" pin="VSEL" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
